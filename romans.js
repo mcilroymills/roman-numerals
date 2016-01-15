@@ -1,9 +1,12 @@
 /* Author: Mills McIlroy
- * Date: 
-*/
+ * Date: January 15, 2016
+ * Description: This function takes a positive number as a parameter
+ * and returns its roman numeral equivalent.
+ */
 
 function romans (num) {
 
+	//This is the key
 	var arabicToRoman = [
 		{arabic: 1000, roman: 'M'},
 	    {arabic: 900, roman: 'CM'},
@@ -29,6 +32,6 @@ function romans (num) {
     }
 }
 
-//console.log(romans(199));//Use to actually see function output
+//console.log(romans(2016));//Use to actually see function output
 
 module.exports = romans;
