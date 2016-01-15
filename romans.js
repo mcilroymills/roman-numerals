@@ -1,7 +1,7 @@
 /* Author: Mills McIlroy
  * Date: January 15, 2016
  * Description: This function takes a positive number as a parameter
- * and returns its roman numeral equivalent.
+ * 	and returns its roman numeral equivalent.
  */
 
 function romans (num) {
